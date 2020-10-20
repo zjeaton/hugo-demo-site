@@ -1,3 +1,33 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Hugo Demo Site"
+paginate = 5
+theme = "hugo-Papermod"
+
+enableRobotsTXT = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  title = "Hugo Demo Site"
+  description = "A quick site to demostrate custom features that have been written by zjeaton"
+  author = "Zak"
+
+  ShowShareButtons = true
+  comments = false
+  defaultTheme = "auto"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+
+[menu]
+[[menu.main]]
+identifier = "image-modal"
+name = "Image-Modal"
+url = "/modal"
+weight = 1
