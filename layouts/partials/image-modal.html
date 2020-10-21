@@ -25,10 +25,10 @@ function openModal(clicked_id) {
 
 // Close the Modal
 function closeModal() { 
+  // prevents flashing last modal image while new id is loading on open
+  document.getElementById("modalPic").src = "";
   document.getElementById("myModal").style.display = "none";
   // See note above regarding the footer 
   document.getElementById("site-footer").style.display = "block";
-  // prevents flashing last modal image while new id is loading on open
-  document.getElementById("modalPic").src = "";
 }
 </script>
