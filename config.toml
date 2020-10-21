@@ -17,7 +17,7 @@ enableRobotsTXT = true
 
   ShowShareButtons = true
   comments = false
-  defaultTheme = "auto"
+  defaultTheme = "dark" # auto or dark
 
 [markup]
 [markup.goldmark]
