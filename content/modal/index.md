@@ -5,13 +5,13 @@ date = "2020-10-20"
 
 ![happy cat on its back with eyes closed](smiling-cat.jpg#float-right)
 
-This is a demo of the functionality of the modal image pop-up that I wrote. If you would like the code for it, [head to the gist](https://gist.github.com/zjeaton/0cdd7e4bed9d292ab6f3d76b0369f16d). Code placement is explained there.  
+This is a demo of the functionality of the modal image pop-up that I wrote. If you would like the code for it, [head to the gist](https://gist.github.com/zjeaton/0cdd7e4bed9d292ab6f3d76b0369f16d). File placement is explained there.  
 
 One feature of this gist is the ability to use a hashtag with the image filename, which allows for css styling. The image to the right of this paragraph was placed using this: `![happy cat on its back with eyes closed](smiling-cat.jpg#float-right)`
 
 ![bowl of granola and a glass of orange juice](granola-orange-juice.jpg#float-left)
 
-I will share the image positioning styles that I use at the end of this post. The pic to the left is formatted as `![bowl of granola and a glass of orange juice](ganola-orange-juice.jpg#float-left)`. The three pics below this paragraph are positioned this way:
+I will share the image positioning styles that I use at the [end of this post](#custom-css). The pic to the left is formatted as `![bowl of granola and a glass of orange juice](ganola-orange-juice.jpg#float-left)`. The three pics below this paragraph are positioned this way:
 
 <div class="clearfix"></div>
 
@@ -28,6 +28,8 @@ I will share the image positioning styles that I use at the end of this post. Th
 ![a colorful building and pink sky](colorful-building.jpg#left)
 ![a rocket with the letters USAF](usaf-rocket.jpg#right)
 ![the most adorable dachshund](dachshund.jpg#center)
+
+<div class="clearfix"></div>
 
 The clearfix divs are there to prevent content below from hanging on the pics/content above. I try to avoid using html in my markdown, but the clearfix is pretty unobtrusive.
 
@@ -44,7 +46,7 @@ img[src$='#float-left-60'],
 img[src$='#float-left-50'],
 img[src$='#float-left-40'] {
   float: left;
-  margin-bottom: .2em;
+  margin-bottom: 1em;
   margin-top: 0em;
 }
 
@@ -55,7 +57,7 @@ img[src$='#float-right-60'],
 img[src$='#float-right-50'],
 img[src$='#float-right-40'] {
   float: right;
-  margin-bottom: .2em;
+  margin-bottom: 1em;
   margin-top: 0em;
 }
 
@@ -83,7 +85,7 @@ img[src$='#center'] {
   display: block;
   margin: auto;
   max-width: 32.5%;
-  margin-bottom: .2em;
+  margin-bottom: 1em;
   margin-top: 0em;
 }
 

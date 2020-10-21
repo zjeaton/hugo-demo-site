@@ -6,7 +6,7 @@ img[src$='#float-left-60'],
 img[src$='#float-left-50'],
 img[src$='#float-left-40'] {
   float: left;
-  margin-bottom: .2em;
+  margin-bottom: 1em;
   margin-top: 0em;
 }
 
@@ -17,7 +17,7 @@ img[src$='#float-right-60'],
 img[src$='#float-right-50'],
 img[src$='#float-right-40'] {
   float: right;
-  margin-bottom: .2em;
+  margin-bottom: 1em;
   margin-top: 0em;
 }
 
@@ -45,7 +45,7 @@ img[src$='#center'] {
   display: block;
   margin: auto;
   max-width: 32.5%;
-  margin-bottom: .2em;
+  margin-bottom: 1em;
   margin-top: 0em;
 }
 
