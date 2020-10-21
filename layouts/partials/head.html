@@ -36,6 +36,9 @@
 <link href="{{ $profileMode.Permalink }}" integrity="{{ $profileMode.Data.Integrity }}" rel="preload stylesheet"
     as="style">
 {{- end -}}
+{{- range .Site.Params.customCSS }}
+<link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
 <!-- Favicons -->
 <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
 <link rel="icon" href="{{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }}">

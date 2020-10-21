@@ -18,6 +18,11 @@ enableRobotsTXT = true
   ShowShareButtons = true
   comments = false
   defaultTheme = "dark" # auto or dark
+  # [ "/css/styles.css", "/css/custom.css", etc. ] place into /static/css
+  customCSS = [ 
+    "/css/styles.css", 
+    "/css/image-modal.css" 
+  ]
 
 [markup]
 [markup.goldmark]
