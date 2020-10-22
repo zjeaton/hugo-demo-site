@@ -2,15 +2,9 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Hugo Demo Site"
 paginate = 5
-theme = "hugo-Papermod"
+theme = "github.com/adityatelange/hugo-PaperMod"
 
 enableRobotsTXT = true
-
-[module]
-
-  [[module.imports]]
-    path = "github.com/adityatelange/hugo-PaperMod"
-    disable=false
 
 [minify]
   disableXML = true
