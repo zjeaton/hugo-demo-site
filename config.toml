@@ -6,6 +6,8 @@ theme = "github.com/adityatelange/hugo-PaperMod"
 
 enableRobotsTXT = true
 
+publishDir = "docs"
+
 [minify]
   disableXML = true
   minifyOutput = true
