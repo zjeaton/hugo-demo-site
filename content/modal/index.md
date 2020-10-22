@@ -15,7 +15,7 @@ I will share the image positioning styles that I use at the [end of this post](#
 
 <div class="clearfix"></div>
 
-```
+```md
 <div class="clearfix"></div>
 
 ![a colorful building and pink sky](colorful-building.jpg#left)
@@ -37,7 +37,7 @@ The clearfix divs are there to prevent content below from hanging on the pics/co
 
 These styles are added to my custom css page and are used for image positioning within my content. I find this is all I need for a nice page layout.
 
-```
+```css
 /* styles for floated images in post pages */
 img[src$='#float-left'],
 img[src$='#float-left-vert'],
