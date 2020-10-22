@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Demo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Hugo Demo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modal Image Pop-up</title>
+      <link>http://example.org/modal/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/modal/</guid>
+      <description>This is a demo of the functionality of the modal image pop-up that I wrote. If you would like the code for it, head to the gist. File placement is explained there.
+One feature of this gist is the ability to use a hashtag with the image filename, which allows for css styling. The image to the right of this paragraph was placed using this: ![happy cat on its back with eyes closed](smiling-cat.</description>
+    </item>
+    
+  </channel>
+</rss>
