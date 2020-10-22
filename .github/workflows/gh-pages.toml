@@ -23,7 +23,7 @@ runs-on = "ubuntu-18.04"
 
   [[jobs.deploy.steps]]
   name = "Build"
-  run = "hugo --minify"
+  run = "hugo --minify --baseURL=https://zjeaton.github.io/hugo-demo-site/"
 
   [[jobs.deploy.steps]]
   name = "Deploy"
