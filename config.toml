@@ -6,6 +6,12 @@ theme = "hugo-Papermod"
 
 enableRobotsTXT = true
 
+[module]
+
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+    disable=false
+
 [minify]
   disableXML = true
   minifyOutput = true
