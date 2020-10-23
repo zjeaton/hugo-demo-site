@@ -24,9 +24,6 @@ I will share the image positioning styles that I use at the [end of this post](#
 
 <div class="clearfix"></div>
 ```
-
-<div class="clearfix"></div>
-
 ![a colorful building and pink sky](colorful-building.jpg#left)
 ![a rocket with the letters USAF](usaf-rocket.jpg#right)
 ![the most adorable dachshund](dachshund.jpg#center)
