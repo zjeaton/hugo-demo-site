@@ -105,8 +105,12 @@ img[src$='#float-right-40'] {
   width: calc(40% - .35em);
 }
 
+.clearfix::before,
 .clearfix::after {
-  display: block;
+  display: table;
   content: " ";
+}
+
+.clearfix::after {
   clear: both;
 }
