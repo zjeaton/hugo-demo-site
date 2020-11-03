@@ -15,7 +15,9 @@
 // Open the Modal
 function openModal(clicked_id) {
   var src = document.getElementById(clicked_id).src;
-  src = src.substring( 0, src.indexOf( "#" ) );
+  if (src.includes("#")) {
+    src = src.substring(0, src.indexOf( "#" ));
+  };
   document.getElementById("modalPic").src = src;
   document.getElementById("myModal").style.display = "block";
   // Ensures the site footer is not shown if front of the modal. Remove if this is not an issue or
