@@ -11,7 +11,7 @@ One feature of this gist is the ability to use a hashtag with the image filename
 
 ![bowl of granola and a glass of orange juice](granola-orange-juice.jpg#float-left)
 
-I will share the image positioning styles that I use at the [end of this post](#custom-css). The pic to the left is formatted as `![bowl of granola and a glass of orange juice](ganola-orange-juice.jpg#float-left)`. The three pics below this paragraph are positioned this way:
+I will share the image positioning styles that I use at the [end of this post](#custom-css). The pic to the left is formatted as `![bowl of granola and a glass of orange juice](granola-orange-juice.jpg#float-left)`. The three pics below this paragraph are positioned this way:
 
 <div class="clearfix"></div>
 
