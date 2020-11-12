@@ -2,9 +2,12 @@ baseURL = "https://compassionate-feynman-1e69e9.netlify.app/"
 languageCode = "en-us"
 title = "Hugo Demo Site"
 paginate = 5
-theme = "github.com/adityatelange/hugo-PaperMod"
 
 enableRobotsTXT = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
 
 [minify]
   disableXML = true
